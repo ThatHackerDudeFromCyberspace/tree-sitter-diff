@@ -3,7 +3,7 @@
     {
       "name": "diff",
       "camelcase": "Diff",
-      "scope": "diff",
+      "scope": "source.diff",
       "path": ".",
       "file-types": [
         "diff"
