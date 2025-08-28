@@ -1,0 +1,36 @@
+{
+  "grammars": [
+    {
+      "name": "diff",
+      "camelcase": "Diff",
+      "scope": "diff",
+      "path": ".",
+      "file-types": [
+        "diff"
+      ],
+      "injection-regex": "^(diff)$"
+    }
+  ],
+  "metadata": {
+    "version": "0.0.1",
+    "license": "MIT",
+    "description": "Diff grammar for tree-sitter",
+    "authors": [
+      {
+        "name": "Mike Davis",
+        "email": "mcarsondavis@gmail.com"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/the-mikedavis/tree-sitter-diff"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true
+  }
+}
